@@ -7,7 +7,7 @@ class SmallAlien : public Alien {
 public:
     SmallAlien(float x, float y);
     void update() override;
-    void draw() override;
+    void draw(Texture2D texture) override;
 };
 
 #endif

@@ -9,7 +9,7 @@ public:
     virtual ~Alien() = default;
 
     virtual void update() = 0;
-    virtual void draw() = 0;
+    virtual void draw(Texture2D texture) = 0;
     virtual void takeDamage();
 
     bool isAlive() const { return health > 0; }

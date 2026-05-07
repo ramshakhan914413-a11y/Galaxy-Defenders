@@ -7,7 +7,7 @@ class BigAlien : public Alien {
 public:
     BigAlien(float x, float y);
     void update() override;
-    void draw() override;
+    void draw(Texture2D texture) override;
 };
 
 #endif
